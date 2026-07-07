@@ -32,7 +32,7 @@ export function TeamSection() {
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6"
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto"
         >
           {TEAM.map((member, i) => (
             <motion.div
@@ -56,7 +56,7 @@ export function TeamSection() {
               <div
                 className="absolute inset-0 opacity-20"
                 style={{
-                  background: `radial-gradient(ellipse at top, ${["#5B5BFF", "#7F5AF0", "#2CB67D"][i]}60, transparent 70%)`,
+                  background: `radial-gradient(ellipse at top, ${["#5B5BFF", "#7F5AF0"][i] ?? "#2CB67D"}60, transparent 70%)`,
                 }}
               />
 
@@ -71,7 +71,7 @@ export function TeamSection() {
                 <h3 className="font-heading font-bold text-lg text-white mb-0.5">{member.name}</h3>
                 <p
                   className="text-xs font-semibold"
-                  style={{ color: ["#818CF8", "#A78BFA", "#6EE7B7"][i] }}
+                  style={{ color: ["#818CF8", "#A78BFA"][i] ?? "#6EE7B7" }}
                 >
                   {member.role}
                 </p>
@@ -82,7 +82,7 @@ export function TeamSection() {
                 <h3 className="font-heading font-bold text-xl text-white mb-1">{member.name}</h3>
                 <p
                   className="text-xs font-semibold mb-4"
-                  style={{ color: ["#818CF8", "#A78BFA", "#6EE7B7"][i] }}
+                  style={{ color: ["#818CF8", "#A78BFA"][i] ?? "#6EE7B7" }}
                 >
                   {member.role}
                 </p>

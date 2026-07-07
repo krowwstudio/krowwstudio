@@ -236,17 +236,6 @@ export const TEAM: TeamMember[] = [
       instagram: "https://www.instagram.com/kunjtyagi21?igsh=bzFlMTJ4bGNpejRy",
     },
   },
-  {
-    id: "3",
-    name: "Dhvani Harjai",
-    role: "Co-Founder & Brand Strategist",
-    bio: "Converts complex brand strategy into visual systems that are instantly recognizable and endlessly scalable.",
-    avatar: "/team-member-3.jpg",
-    social: {
-      linkedin: "https://www.linkedin.com/in/dhvani-harjai-631743224",
-      instagram: "https://www.instagram.com/dhvani.journal?igsh=NzR4Yml5dmVlanRi&utm_source=qr",
-    },
-  },
 ];
 
 export const PROCESS_STEPS: ProcessStep[] = [
