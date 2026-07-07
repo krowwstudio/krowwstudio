@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://krowwstudio.com
+
+# Sitemaps
+Sitemap: https://krowwstudio.com/sitemap.xml
