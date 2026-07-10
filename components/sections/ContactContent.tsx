@@ -117,9 +117,9 @@ export function ContactContent() {
             <div className="p-6 rounded-3xl bg-surface-dark border border-white/6">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-2 h-2 rounded-full bg-accent-green animate-pulse" />
-                <span className="text-white/60 text-xs font-medium">Currently accepting new projects</span>
+                <span className="text-white/90 text-xs font-medium">Currently accepting new projects</span>
               </div>
-              <p className="text-white/30 text-xs leading-relaxed">
+              <p className="text-white/70 text-xs leading-relaxed">
                 We have limited availability. Book your spot before we fill up for the next quarter.
               </p>
             </div>
